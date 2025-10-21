@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+
+  <!-- CAN ID -->
+  <widget class="QLabel" name="labelCanID">
+   <property name="geometry">
+    <rect><x>20</x><y>20</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>CAN ID:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editCanID">
+   <property name="geometry">
+    <rect><x>120</x><y>20</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Bitrate -->
+  <widget class="QLabel" name="labelBitrate">
+   <property name="geometry">
+    <rect><x>20</x><y>60</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Bitrate:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editBitrate">
+   <property name="geometry">
+    <rect><x>120</x><y>60</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Forward -->
+  <widget class="QLabel" name="labelForward">
+   <property name="geometry">
+    <rect><x>20</x><y>100</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Forward:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editForward">
+   <property name="geometry">
+    <rect><x>120</x><y>100</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Backward -->
+  <widget class="QLabel" name="labelBackward">
+   <property name="geometry">
+    <rect><x>20</x><y>140</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Backward:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editBackward">
+   <property name="geometry">
+    <rect><x>120</x><y>140</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Left -->
+  <widget class="QLabel" name="labelLeft">
+   <property name="geometry">
+    <rect><x>20</x><y>180</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Left:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editLeft">
+   <property name="geometry">
+    <rect><x>120</x><y>180</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Right -->
+  <widget class="QLabel" name="labelRight">
+   <property name="geometry">
+    <rect><x>20</x><y>220</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Right:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editRight">
+   <property name="geometry">
+    <rect><x>120</x><y>220</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Stop -->
+  <widget class="QLabel" name="labelStop">
+   <property name="geometry">
+    <rect><x>20</x><y>260</y><width>80</width><height>25</height></rect>
+   </property>
+   <property name="text">
+    <string>Stop:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="editStop">
+   <property name="geometry">
+    <rect><x>120</x><y>260</y><width>260</width><height>25</height></rect>
+   </property>
+  </widget>
+
+  <!-- Buttons -->
+  <widget class="QPushButton" name="buttonBoxOk">
+   <property name="geometry">
+    <rect><x>180</x><y>310</y><width>100</width><height>30</height></rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonBoxCancel">
+   <property name="geometry">
+    <rect><x>290</x><y>310</y><width>100</width><height>30</height></rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+
+ </widget>
+
+</ui>
