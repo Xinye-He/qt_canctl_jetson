@@ -1,4 +1,4 @@
-# Qt CAN Control Tool (for Jetson)
+# Qt CAN Control Tool (for Jetson Orin NX)
 
 A Qt5-based CAN controller with send/receive, loop mode, and bitrate configuration.
 
